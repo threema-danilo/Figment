@@ -26,7 +26,7 @@ enum Source {
 /// // The `Format` trait must be in-scope to use its methods.
 /// use figment::providers::{Format, Data, Json};
 ///
-/// // These two are equivalaent, except the former requires the explicit type.
+/// // These two are equivalent, except the former requires the explicit type.
 /// let json = Data::<Json>::file("foo.json");
 /// let json = Json::file("foo.json");
 /// ```
